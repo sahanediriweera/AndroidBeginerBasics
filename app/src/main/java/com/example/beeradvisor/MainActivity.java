@@ -5,7 +5,6 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
-
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -18,6 +17,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,10 +35,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickFindBeer(View view){
+        BeerExpert expert = new BeerExpert();
+
         TextView brands = (TextView) findViewById(R.id.brands);
         Spinner color = (Spinner) findViewById(R.id.color);
         String beerType = String.valueOf(color.getSelectedItem());
-        brands.setText(beerType);
+        List<String> brandList = expert.getBrands(beerType);
+        StringBuilder stringBuilder = new StringBuilder();
+        for(String brand: brandList){
+            stringBuilder.append(brand).append('\n');
+        }
+        brands.setText(stringBuilder);
+
     }
 
     @Override
