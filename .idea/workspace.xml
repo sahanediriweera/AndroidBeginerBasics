@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7167fa8-31c0-469b-88b1-b7435cdf0e2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tryingintent/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tryingintent/app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tryingintent/app/build.gradle" afterDir="false" />
