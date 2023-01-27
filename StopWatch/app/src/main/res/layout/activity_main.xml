@@ -16,7 +16,6 @@
         android:layout_marginTop="50dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text=""
-        android:textSize="92sp"
         />
 
     <Button
@@ -25,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/time_view"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         android:text="@string/startButtonText"
         android:onClick="onClickStart"
         />
