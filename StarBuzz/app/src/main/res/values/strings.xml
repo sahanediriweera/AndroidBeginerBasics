@@ -6,4 +6,10 @@
         <item>Drinks</item>
         <item>Store</item>
     </string-array>
+    <string-array name="drinks">
+        <item>Tea</item>
+        <item>Latte</item>
+        <item>Cappuccino</item>
+    </string-array>
+    <string name="title_activity_drink_category">Drink Category</string>
 </resources>
