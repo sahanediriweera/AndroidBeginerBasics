@@ -1,16 +1,14 @@
 package com.example.foodapp.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import com.example.foodapp.R;
 import android.os.Bundle;
 
-import com.example.foodapp.R;
-
-public class MainActivity extends AppCompatActivity {
+public class TheMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_the_main);
     }
 }
